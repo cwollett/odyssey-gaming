@@ -42,11 +42,13 @@ hero_media = "hero-academic.png"
 #  icon_pack = "fas"
 #  icon = "download"
   
-[cta]
+[cta_alt]
   url = "/"
-  label = "DC Universe Online CR Calculator"
+  label = "DCUO CR Calculator"
 
 # Note. An optional note to show underneath the links.
 # [cta_note]
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
+
+**A long established gaming league, originally brought together through a shared passion for DC Universe Online.**
