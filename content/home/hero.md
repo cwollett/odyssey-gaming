@@ -51,6 +51,6 @@ hero_media = "hero-academic.png"
 #   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-**ODYSSEY** is a long established DC Universe Online community, whose members also enjoy a wide variety of multiplayer games together. Over time our members have created clans in games such as *Guild Wars 2*, *Final Fantasy XIV*, and *Destiny*, while also enjoying co-op games like *Warframe* and *Borderlands*.
+**ODYSSEY** is a long established gaming community, whose members have enjoyed a wide variety of multiplayer games together. Over time our members have created clans in games such as *DC Universe Online*, *Guild Wars 2*, *Final Fantasy XIV*, and *Destiny*, while also enjoying co-op games like *Warframe* and *Borderlands*.
 
-Having spent several years gaming along side each other, we've forged a unique kinship and a sense of community, which has contributed to our continued success. Our members are co-operative, helpful, and friendly - so completing content is always fun, efficient, and a unique experience every time. We are highly approachable players so please feel free to get in touch.
+Having spent several years gaming along side one other, we've forged a unique kinship and sense of community, which has contributed to our continued success. Our members are co-operative, helpful, and friendly - so completing content is always fun, efficient, and a unique experience every time. We are highly approachable players so please feel free to get in touch.
