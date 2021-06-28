@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="css/odyssey.css" rel="stylesheet" />
+</head>
+<body>
+      <!--Main Navigation-->
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="z-index: 2000;">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="index.html"><img class="logo-icon" src="images/icon.png" alt="logo"></a>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link"href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cr-calculator.html">DCUO CR Calculator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"  href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/channel/UCd-n1gE-blLibpiScV3R9Kw"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-5">
+    <div class="container">
+      <!--Section: Content-->
+      <section>
+        <div class="row">
+          <div class="col-md-6 gx-5 mb-4">
+            <h1><strong>Gaming Resources</strong></h1>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <!--Section: Content-->
+      <section>
+        <!-- Tabs navs -->
+        <ul class="nav nav-tabs nav-justified mb-3" id="games" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link active"
+              id="games-tab-1"
+              data-mdb-toggle="tab"
+              href="#games-tabs-1"
+              role="tab"
+              aria-controls="games-tabs-1"
+              aria-selected="true"
+              ><h2 class="h4">DC Universe Online Resources</h2></a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              id="games-tab-2"
+              data-mdb-toggle="tab"
+              href="#games-tabs-2"
+              role="tab"
+              aria-controls="games-tabs-2"
+              aria-selected="false"
+              ><h2 class="h4">Destiny 2 Resources</h4></a
+            >
+          </li>
+        </ul>
+        <!-- Tabs navs -->
+
+        <!-- Tabs content -->
+        <div class="tab-content" id="games-content">
+          <div
+            class="tab-pane fade show active"
+            id="games-tabs-1"
+            role="tabpanel"
+            aria-labelledby="games-tab-1"
+          >
+            Tab 1 content
+          </div>
+          <div
+            class="tab-pane fade"
+            id="games-tabs-2"
+            role="tabpanel"
+            aria-labelledby="games-tab-2"
+          >
+          <!-- General Accordion-->
+          <h3 class="mb-3">General Info</h3>
+          <div class="accordion accordion-flush mb-5" id="accordionG">
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingOneG">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#g-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="g-collapseOne"
+                >
+                  Braytech Website
+                </button>
+              </h4>
+              <div
+                id="g-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOneG"
+                data-mdb-parent="#accordionG"
+              >
+                <div class="accordion-body">
+                  <p>Catch-all website that lets you look up your character. From there you can see remaining pinnacle/powerful engrams remaining 
+                    for each class as well as check completion on collections and triumphs.</p>
+              </div>
+              </div>
+            </div>
+          </div>
+            <!-- Last Wish Accordion-->
+          <h3 class="mb-3">Last Wish</h3>
+          <div class="accordion accordion-flush mb-5" id="accordionLW">
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingOneLW">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#lw-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="lw-collapseOne"
+                >
+                  Wall of Wishes
+                </button>
+              </h4>
+              <div
+                id="lw-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOneLW"
+                data-mdb-parent="#accordionLW"
+              >
+                <div class="accordion-body">
+                  <img src="images/lw-wall-of-wishes.jpg" class="img-fluid" alt="Last Wish Raid's Wall of Wishes">
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingTwoLW">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#lw-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="lw-collapseTwo"
+                >
+                  Vault
+                </button>
+              </h4>
+              <div
+                id="lw-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwoLW"
+                data-mdb-parent="#accordionLW"
+              >
+                <div class="accordion-body">
+                  <img src="images/lw-vault.png" class="img-fluid" alt="Last Wish Raid's How to Open the Vault">
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingThreeLW">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#lw-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="lw-collapseThree"
+                >
+                  Riven Legit
+                </button>
+              </h4>
+              <div
+                id="lw-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThreeLW"
+                data-mdb-parent="#accordionLW"
+              >
+                <div class="accordion-body">
+                  <img src="images/lw-riven-legit.png" class="img-fluid" alt="Last Wish Raid's Riven Callouts">
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingFourLW">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#lw-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="lw-collapseFour"
+                >
+                  Queen's Walk
+                </button>
+              </h4>
+              <div
+                id="lw-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFourLW"
+                data-mdb-parent="#accordionLW"
+              >
+                <div class="accordion-body">
+                  <img src="images/lw-queens-walk.png" class="img-fluid" alt="Last Wish Raid's Queen's Walk Map">
+              </div>
+              </div>
+            </div>
+          </div>
+            <!-- Deep Stone Crypt Accordion-->
+          <h3 class="mb-3">Deep Stone Crypt</h3>
+          <div class="accordion accordion-flush mb-5" id="accordionDSC">
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingOneDSC">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#dsc-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="dsc-collapseOne"
+                >
+                  Crypt Security
+                </button>
+              </h4>
+              <div
+                id="dsc-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOneDSC"
+                data-mdb-parent="#accordionDSC"
+              >
+                <div class="accordion-body">
+                  <img src="images/dsc-crypt-security.png" class="img-fluid" alt="Deep Stone Crypt's Crypt Security Map Callouts">
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingTwoDSC">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#dsc-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="dsc-collapseTwo"
+                >
+                  Rapture
+                </button>
+              </h4>
+              <div
+                id="dsc-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwoDSC"
+                data-mdb-parent="#accordionDSC"
+              >
+                <div class="accordion-body">
+                  <img src="images/dsc-rapture.png" class="img-fluid" alt="Deep Stone Crypt's Rapture Map">
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingThreeDSC">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#dsc-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="dsc-collapseThree"
+                >
+                  Taniks
+                </button>
+              </h4>
+              <div
+                id="dsc-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThreeDSC"
+                data-mdb-parent="#accordionDSC"
+              >
+                <div class="accordion-body">
+                  <img src="images/dsc-taniks.png" class="img-fluid" alt="Deep Stone Crypt's Taniks Map">
+              </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingFourDSC">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#dsc-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="dsc-collapseFour"
+                >
+                  "Of All Trades" Challenge
+                </button>
+              </h4>
+              <div
+                id="dsc-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFourDSC"
+                data-mdb-parent="#accordionDSC"
+              >
+                <div class="accordion-body">
+                  <img src="images/dsc-of-all-trades.png" class="img-fluid" alt="Deep Stone Crypt's Of All Trades Challenge Guide">
+              </div>
+              </div>
+            </div>
+            <!-- Vault of Glass Accordion-->
+            <h3 class="mb-3">Vault of Glass</h3>
+            <div class="accordion accordion-flush mb-5" id="accordionVoG">
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="headingOneVoG">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#vog-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="vog-collapseOne"
+                  >
+                    Conflux/Oracle/Templar Room
+                  </button>
+                </h4>
+                <div
+                  id="vog-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOneVoG"
+                  data-mdb-parent="#accordionVoG"
+                >
+                  <div class="accordion-body">
+                    <img src="images/vog_maps_templars-well-oracles.png" class="img-fluid" alt="Vault of Glass Templar Room Map">
+                </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="headingTwoDSC">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#vog-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="vog-collapseTwo"
+                  >
+                    Gorgon's Labyrinth
+                  </button>
+                </h4>
+                <div
+                  id="vog-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwoVoG"
+                  data-mdb-parent="#accordionVoG"
+                >
+                  <div class="accordion-body">
+                    <img src="images/vog-gorgons.png" class="img-fluid" alt="Vault of Glass Gorgon's Labyrinth Map">
+                </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="headingThreeVoG">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#vog-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="vog-collapseThree"
+                  >
+                    Atheon
+                  </button>
+                </h4>
+                <div
+                  id="vog-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThreeVoG"
+                  data-mdb-parent="#accordionVoG"
+                >
+                  <div class="accordion-body">
+                    <img src="images/vog-atheon.png" class="img-fluid" alt="Vault of Glass Atheon Oracle Callouts">
+                </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- Tabs content -->
+      </section>
+    </div>
+      <!--Section: Content-->
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+
+    <hr class="m-0" />
+  <footer class="bg-light text-lg-start">
+
+    <div class="text-center py-4 align-items-center">
+      <p>Follow us on social media</p>
+      <a href="https://www.youtube.com/channel/UCd-n1gE-blLibpiScV3R9Kw" class="btn btn-primary m-1"  style="background-color: #ffc821; color:#000" role="button"
+        rel="nofollow" target="_blank">
+        <i class="fab fa-youtube fa-2x"></i>
+      </a>
+      <a href="https://www.facebook.com/odyssey.gaming.net" class="btn btn-primary m-1"  style="background-color: #ffc821; color:#000" role="button" rel="nofollow"
+        target="_blank">
+        <i class="fab fa-facebook-f fa-2x"></i>
+      </a>
+      <a href="https://twitter.com/odysseygc" class="btn btn-primary m-1"  style="background-color: #ffc821; color:#000" role="button" rel="nofollow"
+        target="_blank">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">Odyssey Gaming</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!--Footer-->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

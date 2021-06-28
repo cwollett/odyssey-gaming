@@ -1,6 +1,8 @@
-# IDEs
-.idea/
-
-# Hugo
-resources/
-public/
+node_modules
+package-lock.json
+package.json
+travis.yml
+gulpfile.js
+README.md
+archive/
+archive2/
